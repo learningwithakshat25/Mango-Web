@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Alphonso mangoes",
+        "img": "/mango1.png",
+        "price": "$40",
+        "desc": "Alphonso mangoes, also known as Hapus, are a highly prized variety of mango originating from India, particularly from the Ratnagiri, Devgad, and Sindhudurg regions of Maharashtra. They are named after Afonso de Albuquerque, a Portuguese general and military expert who helped establish Portuguese colonies in India."
+    },
+    {
+        "id": 2,
+        "name": "Ataulfo mangoes",
+        "img": "/mango2.png",
+        "price": "$40"
+    },
+    {
+        "id": 3,
+        "name": "Keitt mangoes",
+        "img": "/mango3.png",
+        "price": "$40"
+    },
+    {
+        "id": 4,
+        "name": "Tommy Atkins mangoes",
+        "img": "/mango4.png",
+        "price": "$40"
+    },
+    {
+        "id":5,
+        "name": "kesar mangoes",
+        "img": "/mango5.png",
+        "price": "$40"
+    },
+    {
+        "id":6,
+        "name": "neelum mangoes",
+        "img": "/mango6.png",
+        "price": "$40"
+    }
+]
