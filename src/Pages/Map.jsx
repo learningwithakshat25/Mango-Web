@@ -5,8 +5,8 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Map = () => {
     return (
-        <div className="w-full h-[450px] rounded-md container mx-auto p-5 flex flex-col items-center justify-center gap-5">
-            <h1 className='text-4xl font-semibold flex flex-row gap-2 items-center justify-center'>Visit <span className='text-red-500'>Us</span><FaLocationDot className='text-3xl'/>
+        <div className="w-full h-full rounded-md container mx-auto p-5 flex flex-col items-center justify-center gap-5">
+            <h1 className='md:text-3xl text-2xl font-semibold flex flex-row gap-2 items-center justify-center'>Visit <span className='text-red-500'>Us</span><FaLocationDot className='md:text-3xl text-2xl'/>
 
 </h1>
 
@@ -18,7 +18,6 @@ const Map = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="w-full h-full"
             ></iframe>
         </div>
     );

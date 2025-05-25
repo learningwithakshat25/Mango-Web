@@ -7,6 +7,7 @@ import Types from '../Pages/Types'
 import Members from '../Pages/Members'
 import Testimonials from '../Pages/Testimonials'
 import Map from '../Pages/Map'
+import ContactUs from '../Pages/ContactUs'
 
 const Bundler = () => {
   return (

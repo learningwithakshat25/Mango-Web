@@ -7,10 +7,10 @@ const AppLayout = () => {
   return (
     <>
     <Header/>
-    <div className="main flex flex-col gap-15">
+    <div className="main max-w-screen max-h-screen flex flex-col gap-15">
     <Outlet/>
-    </div>
     <Footer/>
+    </div>
     </>
   )
 }
