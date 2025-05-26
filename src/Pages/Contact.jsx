@@ -15,11 +15,8 @@ const Contact = () => {
     <>
       <div className='w-full h-full grid md:grid-cols-2 grid-cols-1 container mx-auto p-5 gap-5 mt-16'>
         <div className="left flex flex-col gap-5 md:order-1 order-2 ">
-        <div className="route flex flex-row items-center gap-2 md:text-lg text-md text-[#3E7F51] font-semibold" >
-          <Link className='cursor-pointer' to='/'><IoIosHome /></Link>
-          <h1> / Contact Us</h1>
-        </div>
-          <div className="heading flex flex-row items-center justify-start gap-1">
+
+          <div className="heading flex flex-row items-center md:justify-start justify-center gap-1">
             <img className='h-5' src="/leaf.png" alt="" />
             <h1 className='text-3xl font-semibold text-red-500'>Contact Us</h1>
           </div>
