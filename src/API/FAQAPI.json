@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "heading": "When is mango season in Malihabad?",
+        "answer": "The season usually starts in mid-May and lasts till early July."
+    },
+    {
+        "id":2,
+        "heading": "How do I place an order",
+        "answer": " Go to our website, select your favorite mango variety, and checkout — it’s that simple!"
+    },
+    {
+        "id":3,
+        "heading": "Do you offer home delivery?",
+        "answer": " Yes, we deliver fresh mangoes right to your doorstep in Lucknow."
+    },
+    {
+        "id":4,
+        "heading": "What are the available mango varieties",
+        "answer": "We offer top-quality Dussehri, Langra, Chausa, and other Malihabadi mangoes."
+    },
+    {
+        "id":5,
+        "heading": "How long does delivery take?",
+        "answer": " We usually ship within 30-40 min. Delivery time depends on your location."
+    },
+    {
+        "id":6,
+        "heading": "How are the mangoes packed for shipping?",
+        "answer": " Our mangoes are packed in strong, ventilated boxes with natural hay for protection."
+    },
+    {
+        "id":7,
+        "heading": "Are the mangoes organic or naturally grown?",
+        "answer": "Yes, our mangoes are grown using traditional, chemical-free methods in Malihabad."
+    },
+    {
+        "id":8,
+        "heading": "Can I pre-book mangoes before the season starts?",
+        "answer": "Absolutely! You can pre-book on our website — we’ll notify you when they’re ready."
+    }
+]

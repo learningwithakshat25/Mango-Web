@@ -7,7 +7,7 @@ import Types from '../Pages/Types'
 import Members from '../Pages/Members'
 import Testimonials from '../Pages/Testimonials'
 import Map from '../Pages/Map'
-import ContactUs from '../Pages/Contact'
+import Contact from '../Pages/Contact'
 
 const Bundler = () => {
   return (
@@ -20,6 +20,7 @@ const Bundler = () => {
    <Members/>
    <Testimonials/>
    <Map/>
+   <Contact/>
    </>
   )
 }

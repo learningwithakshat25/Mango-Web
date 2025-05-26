@@ -7,7 +7,7 @@ const AppLayout = () => {
   return (
     <>
     <Header/>
-    <div className="main max-w-screen max-h-screen flex flex-col gap-15">
+    <div className="main max-w-screen flex flex-col gap-15">
     <Outlet/>
     <Footer/>
     </div>

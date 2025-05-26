@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "description": "I ordered Dussehri mangoes from Aam’e Malihabad and they were incredibly fresh, juicy, and naturally sweet! The packaging was excellent, and the delivery was quick. It felt like getting a piece of Malihabad at home. Highly recommended!",
+        "name": "Manish Sharma, Delhi",
+        "rating": "/rating-img.png",
+        "img": "/unknown-img.png"
+    },
+    {
+        "id": 2,
+        "description": "Beautifully packed and delivered on time. My family loved the taste. Definitely ordering again!",
+        "name": "Ritika Jain, Noida",
+        "rating": "/rating-img.png",
+        "img": "/unknown-img.png"
+    },
+    {
+        "id": 3,
+        "description": "As someone from Malihabad, I must say these mangoes truly kept the tradition alive. Authentic!",
+        "name": "Aman Verma, Lucknow",
+        "rating": "/rating-img.png",
+        "img": "/unknown-img.png"
+    },
+    {
+        "id": 4,
+        "description": "One of the best online mango-buying experience. The quantity was top-natch!",
+        "name": "Rajeev Mehta, Gurugram",
+        "rating": "/rating-img.png",
+        "img": "/unknown-img.png"
+    },
+    {
+        "id": 5,
+        "description": "Malihabad's magi delivered to my doorstep. Well recommended it to all mango lovers!",
+        "name": "Priya Desai, Mumbai",
+        "rating": "/rating-img.png",
+        "img": "/unknown-img.png"
+    }
+]

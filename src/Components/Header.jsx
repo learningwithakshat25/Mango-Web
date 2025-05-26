@@ -20,7 +20,8 @@ const Header = () => {
           </div>
           <div className="mid">
             <ul className=' hidden md:flex flex-row items-center justify-center gap-14 font-semibold text-black text-md'>
-              <li className='hover:text-green-700 cursor-pointer'>Shop</li>
+              <Link to='/shop'><li className='hover:text-green-700 cursor-pointer'>Shop</li>
+              </Link>
               <Link to='/product'><li className='hover:text-green-700 cursor-pointer'>Product</li></Link>
               <li className='hover:text-green-700 cursor-pointer'>About Us</li>
               <Link to='/contact'><li className='hover:text-green-700 cursor-pointer'>Contact Us</li>
