@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <div className='w-full fixed z-50 top-0 backdrop-blur-xl bg-transparent  '>
-        <div className="child flex flex-row items-center justify-between container mx-auto text-sm font-medium" >
+        <div className="child flex flex-row items-center justify-between container mx-auto text-sm font-medium px-5" >
 
           <div className="left brand flex flex-row items-center justify-center">
             <img className='h-20 object-contain' src="/brand-logo.png" alt="" />
