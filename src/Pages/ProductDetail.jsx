@@ -33,8 +33,8 @@ const ProductDetail = () => {
           <div className="right flex flex-col gap-5">
             <p className='md:text-lg text-md font-medium'>{ProductData1.desc}</p>
             <h2 className='text-2xl font-semibold flex flex-row gap-2 items-center text-red-500'><FaRupeeSign />{ProductData1.price}</h2>
-            <button className='rounded-2xl bg-green-700 p-3 text-white md:text-lg text-sm font-semibold flex flex-row items-center justify-center gap-2 shadow shadow-black hover:bg-green-600 cursor-pointer md:w-fit'>Buy Now <FaShoppingCart />
-        </button>
+            <Link to='/contact'><button className='rounded-2xl bg-green-700 p-3 text-white md:text-lg text-sm font-semibold flex flex-row items-center justify-center gap-2 shadow shadow-black hover:bg-green-600 cursor-pointer md:w-fit'>Buy Now <FaShoppingCart />
+        </button></Link>
           </div>
       </div>
             </div >

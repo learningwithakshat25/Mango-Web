@@ -10,12 +10,12 @@ const Header = () => {
 
   return (
     <>
-      <div className='w-full h-fit fixed z-50 top-0 backdrop-blur-xl bg-transparent p-4  '>
+      <div className='w-full fixed z-50 top-0 backdrop-blur-xl bg-transparent  '>
         <div className="child flex flex-row items-center justify-between container mx-auto text-sm font-medium" >
 
-          <div className="left flex flex-row items-center justify-center">
-            {/* <img src="/brand.png" alt="" /> */}
-            <Link to='/'><h1 className='text-lg  md:text-xl font-semibold cursor-pointer'>Aam'e Lucknow</h1>
+          <div className="left brand flex flex-row items-center justify-center">
+            <img className='h-20 object-contain' src="/brand-logo.png" alt="" />
+            <Link to='/'><h1 className='brand text-lg  md:text-xl font-medium cursor-pointer'>Aam'e Malihabad</h1>
             </Link>
           </div>
           <div className="mid">
@@ -24,8 +24,7 @@ const Header = () => {
               </Link>
               <Link to='/product'><li className='hover:text-green-700 cursor-pointer'>Product</li></Link>
               <li className='hover:text-green-700 cursor-pointer'>About Us</li>
-              <Link to='/contact'><li className='hover:text-green-700 cursor-pointer'>Contact Us</li>
-              </Link>
+             <Link to='/contact'> <li className='hover:text-green-700 cursor-pointer'>Contact Us</li></Link>
             </ul>
           </div>
 

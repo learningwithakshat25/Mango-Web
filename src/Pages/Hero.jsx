@@ -22,20 +22,20 @@ const Hero = () => {
                     <div className="right-bottom md:flex md:flex-row grid grid-cols-2 items-center justify-around w-full mt-10">
                         <div className="left flex flex-row items-center justify-center gap-2">
                             <div className="upper">
-                                <img className='md:h-15' src="/pickup.png" alt="" />
+                                <img className='md:h-15 object-contain' src="/pickup.png" alt="" />
                             </div>
                             <div className="bottom flex flex-col items-start justify-center gap-1 text-white font-medium">
-                                <h2 className='text-sm'>Pickup Stand</h2>
-                                <p className='text-sm'>Pickup to deliver within 30 min</p>
+                                <h2 className='md:text-sm text-xs'>Pickup Stand</h2>
+                                <p className='md:text-sm text-xs'>Pickup to deliver within 30 min</p>
                             </div>
                         </div>
                         <div className="right flex flex-row items-center justify-center gap-2">
                             <div className="upper">
-                                <img className='md:h-15' src="/delivery.png" alt="" />
+                                <img className='md:h-15 object-contain' src="/delivery.png" alt="" />
                             </div>
                             <div className="bottom flex flex-col items-start justify-center gap-1 text-white font-medium">
-                                <h2 className='text-sm'>Fast Delivery</h2>
-                                <p className='text-sm'>Promise to deliver in 30 Mins</p>
+                                <h2 className='md:text-sm text-xs'>Fast Delivery</h2>
+                                <p className='md:text-sm text-xs'>Promise to deliver in 30 Mins</p>
                             </div>
                         </div>
                     </div>
