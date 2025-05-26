@@ -22,21 +22,21 @@ const Contact = () => {
         <div className="main-card flex md:flex-row flex-col gap-5">
 
         <div className="info flex flex-col items-start justify-start gap-5">
-          <div className="location flex flex-row items-center justify-center gap-4 p-2 shadow shadow-black w-62 rounded-2xl">
+          <div className="location flex flex-row items-center justify-start gap-4 p-2 shadow shadow-black w-62 rounded-2xl">
             <FaLocationDot className='text-red-800 text-3xl' />
             <div className="right flex flex-col items-start justify-start gap-1 ">
               <h1 className='font-semibold'>Location</h1>
               <p>Location,Location,India</p>
             </div>
           </div>
-          <div className="contact flex flex-row items-center justify-center gap-4 p-2 shadow shadow-black w-62 rounded-2xl">
+          <div className="contact flex flex-row items-center justify-start gap-4 p-2 shadow shadow-black w-62 rounded-2xl">
               <FaPhoneAlt className='text-3xl text-blue-900' />
               <div className="right flex flex-col items-start justify-start gap-1 ">
                 <h1 className='font-semibold'>Call Us</h1>
                 <p>91+ 1234567890</p>
               </div>
             </div>
-          <div className="timming flex flex-row items-center justify-center gap-4 p-2 shadow shadow-black w-62 rounded-2xl">
+          <div className="timming flex flex-row items-center justify-start gap-4 p-2 shadow shadow-black w-62 rounded-2xl">
             <IoMdTime className='text-3xl text-blue-700' />
             <div className="right flex flex-col items-start justify-start gap-1 ">
               <h1 className='font-semibold'>Opening - Closing</h1>
@@ -45,22 +45,22 @@ const Contact = () => {
           </div>
         </div>
           <div className="cards items-start justify-start flex flex-col gap-5">
-            <div className="whatsapp flex flex-row items-center justify-center gap-4 p-2 shadow shadow-black w-62 rounded-2xl">
+            <div className="whatsapp flex flex-row items-center justifystart gap-4 p-2 shadow shadow-black w-62 rounded-2xl">
               <FaWhatsapp className='text-3xl text-green-600' />
               <div className="right flex flex-col items-start justify-start gap-1 ">
                 <h1 className='font-semibold'>Whatsapp Us</h1>
                 <p>Quick help on whatsapp</p>
               </div>
             </div>
-            <div className="email flex flex-row items-center justify-center gap-2 p-2 shadow shadow-black w-62 rounded-2xl">
+            <div className="email flex flex-row items-center justify-start gap-2 p-2 shadow shadow-black w-62 rounded-2xl">
               <MdEmail className='text-3xl text-yellow-600' />
-              <div className="right flex flex-col items-start justify-start gap-1 ">
+              <div className="right flex flex-col items-start justify-start gap-1 md:text-md ">
                 <h1 className='font-semibold'>Email Us</h1>
                 <p>Quick help on Email</p>
               </div>
 
             </div>
-            <div className="insta flex flex-row items-center justify-center gap-2 p-2 shadow shadow-black  w-62 rounded-2xl ">
+            <div className="insta flex flex-row items-center justify-start gap-2 p-2 shadow shadow-black  w-62 rounded-2xl ">
               <FaInstagram className='text-3xl text-pink-800' />
               <div className="right flex flex-col items-start justify-start gap-1">
                 <h1 className='font-semibold'>Instagram</h1>
