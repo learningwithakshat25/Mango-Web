@@ -36,7 +36,7 @@ const Header = () => {
         </div>
       </div>
       {toggle ? <div className="mid">
-        <ul className='fixed inset-0 z-50 bg-transparent backdrop-blur-2xl top-14 flex flex-col items-center justify-center md:gap-14 gap-8 rounded-bl-4xl shadow rounded-br-4xl font-semibold text-amber-950 text-md w-full h-fit p-5'>
+        <ul className='fixed inset-0 z-50 bg-transparent backdrop-blur-2xl top-20 flex flex-col items-center justify-center md:gap-14 gap-8 rounded-bl-4xl shadow rounded-br-4xl font-semibold text-amber-950 text-md w-full h-fit p-5'>
           <li onClick={handleToggle} className='hover:text-green-700 cursor-pointer'>Shop</li>
           <Link to='/product'><li onClick={handleToggle} className='hover:text-green-700 cursor-pointer'>Product</li></Link>
           <li onClick={handleToggle} className='hover:text-green-700 cursor-pointer'>About Us</li>
