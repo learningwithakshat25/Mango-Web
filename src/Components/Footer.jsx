@@ -11,20 +11,21 @@ const Footer = () => {
   return (
     <div className='w-full h-full bg-green-700 text-white p-5'>
       <div className="container mx-auto flex flex-col items-center justify-around w-full h-full gap-5">
-        <div className="flex md:flex-row flex-col items-center justify-around w-full h-full">
+        <div className="flex flex-row items-center justify-around w-full h-full">
+
         <div className="brand flex flex-row items-center justify-center font-semibold">
           <img className='h-16' src="/brand-logo.png" alt="" />
           <h1>Aam'e Malihabad</h1>
         </div>
-        <ul className=" flex flex-row gap-10 text-sm md:text-md">
+        <ul className=" flex flex-row gap-10">
           <h1>About Us</h1>
           <h1>Product</h1>
           <h1>Gallery</h1>
           <h1>Contact Us</h1>
         </ul>
         </div>
-      <div className="middle w-full h-full flex md:flex-col flex-row items-center md:justify-center justify-around">
-        <div className="info flex md:flex-row flex-col items-start justify-start gap-5">
+      <div className="middle w-full h-full flex flex-col items-center justify-center">
+        <div className="info flex flex-row items-start justify-start gap-5">
           <div className="location flex flex-row items-center justify-start gap-4 p-2 w-62 rounded-2xl">
             <FaLocationDot className='text-red-800 text-3xl bg-white p-1 rounded-md' />
             <div className="right flex flex-col items-start justify-start gap-1 ">
@@ -45,7 +46,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="cards items-start justify-start flex md:flex-row flex-col gap-5">
+        <div className="cards items-start justify-start flex flex-row gap-5">
           <div className="whatsapp flex flex-row items-center justifystart gap-4 p-2 w-62 rounded-2xl">
             <FaWhatsapp className='text-3xl text-green-600 bg-white p-1 rounded-md' />
             <div className="right flex flex-col items-start justify-start gap-1 ">
